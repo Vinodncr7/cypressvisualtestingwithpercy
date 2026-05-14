@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "../node_modules",
+    "target": "es6",
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "@percy/cypress"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "**/*.ts",
+  ]
+}
